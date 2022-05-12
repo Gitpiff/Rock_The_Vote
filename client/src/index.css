@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: sans-serif;
+    outline: none;
+    text-decoration: none;
+
+  }
+
+  .app {
+    background-color: #eee9;
+    background-image: url("./images/protesta1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100vh;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 40px;
+    background-color: #738580;
+    opacity: 1;
+  }
+
+  .logoutbtn {
+    border-radius: 15%;
+    width: 10%;
+    background-color: #868B8E;
+    opacity: .7;
+  }
+
+  .loginbtn{
+    border-radius: 15%;
+    background-color: #EEEDE7;
+    opacity: .7;
+  }
+
+  .profilelink {
+    color: white;
+    opacity: .7;
+    font-weight: bold;
+  }
+
+  .publiclink {
+    color: white;
+    font-weight: bold;
+    opacity: .7;
+  }
+  .auth-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+  }
+
+  .auth-container > h1 {
+    font-size: 2em;
+    margin: 24px;
+  }
+
+  .auth-container > p {
+    margin: 16px;
+    text-decoration: underline;
+  }
+
+  .home-page-banner > h1{
+    width: 50%;
+    margin-left: 31%;
+    margin-top: 10%;
+    font-size: 45px;
+  }
+
+  form {
+    border: 1px solid #3339;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #aaa9;
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 3%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  form > input {
+    margin: 16px 8px;
+    padding: 8px;
+    border-radius: 4px;
+  }
+
+  form > button {
+    margin: 16px 8px;
+    padding: 8px;
+    border-radius: 4px;
+  }
+
+  .home-title {
+    width: 40%;
+    margin-left: 35%;
+    margin-top: 10%;
+    font-size: 4vh;
+    color: blue;
+    opacity: 2;
+  }
+
+  .public {
+    height: 100vh;
+  }
+
+  .profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .profile > h1 {
+    margin: 8px;
+    font-size: 2em;
+    text-align: center;
+  }
+
+  .profile > h3 {
+    margin: 16px 0;
+    text-decoration: underline;
+  }
+
+  .profile > form {
+    display: flex;
+    flex-direction: column;
+    margin: 16px 0;
+    border: 1px solid #3339;
+    background-color: #aaa9;
+    padding: 16px;
+    border-radius: 5px
+  }
+
+  .profile > form > input,
+  .profile > form > button {
+    margin: 8px 0;
+    padding: 8px;
+    border-radius: 5px
+  }
+
